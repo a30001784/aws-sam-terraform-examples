@@ -5,7 +5,7 @@ module "lambda_function_responder" {
   local_existing_package = "./src/responder/function.zip"
   function_name = "http_responder"
   handler       = "app.open_handler"
-  runtime       = "python3.9"
+  runtime       = "python3.11"
   create_package = false
   publish       = true
   allowed_triggers = {
@@ -24,5 +24,5 @@ module "lambda_function_auth" {
   create_package = false
   function_name = "http_authorizer"
   handler       = "app.handler"
-  runtime       = "python3.9"
+  runtime       = "python3.11"
 }

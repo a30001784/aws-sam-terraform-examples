@@ -5,7 +5,7 @@ module "lambda_function_responder" {
   source_path   = "../src/responder/"
   function_name = "responder"
   handler       = "app.open_handler"
-  runtime       = "python3.9"
+  runtime       = "python3.11"
   create_sam_metadata = true
   publish       = true
   allowed_triggers = {
@@ -23,6 +23,6 @@ module "lambda_function_auth" {
   source_path   = "../src/auth/"
   function_name = "authorizer"
   handler       = "app.handler"
-  runtime       = "python3.9"
+  runtime       = "python3.11"
   create_sam_metadata = true
 }

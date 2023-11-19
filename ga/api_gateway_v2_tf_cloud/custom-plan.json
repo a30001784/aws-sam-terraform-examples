@@ -578,7 +578,7 @@
                 "replacement_security_group_ids": null,
                 "reserved_concurrent_executions": -1,
                 "role": "arn:aws:iam::178733185316:role/http_authorizer",
-                "runtime": "python3.9",
+                "runtime": "python3.11",
                 "s3_bucket": null,
                 "s3_key": null,
                 "s3_object_version": null,
@@ -801,7 +801,7 @@
                 "replacement_security_group_ids": null,
                 "reserved_concurrent_executions": -1,
                 "role": "arn:aws:iam::178733185316:role/http_responder",
-                "runtime": "python3.9",
+                "runtime": "python3.11",
                 "s3_bucket": null,
                 "s3_key": null,
                 "s3_object_version": null,
@@ -1669,7 +1669,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_authorizer",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -1729,7 +1729,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_authorizer",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -2054,7 +2054,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_responder",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -2114,7 +2114,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_responder",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -3163,7 +3163,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_authorizer",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -3223,7 +3223,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_authorizer",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -3584,7 +3584,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_responder",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -3644,7 +3644,7 @@
           "replacement_security_group_ids": null,
           "reserved_concurrent_executions": -1,
           "role": "arn:aws:iam::178733185316:role/http_responder",
-          "runtime": "python3.9",
+          "runtime": "python3.11",
           "s3_bucket": null,
           "s3_key": null,
           "s3_object_version": null,
@@ -4982,7 +4982,7 @@
                   "replacement_security_group_ids": null,
                   "reserved_concurrent_executions": -1,
                   "role": "arn:aws:iam::178733185316:role/http_authorizer",
-                  "runtime": "python3.9",
+                  "runtime": "python3.11",
                   "s3_bucket": null,
                   "s3_key": null,
                   "s3_object_version": null,
@@ -5448,7 +5448,7 @@
                   "replacement_security_group_ids": null,
                   "reserved_concurrent_executions": -1,
                   "role": "arn:aws:iam::178733185316:role/http_responder",
-                  "runtime": "python3.9",
+                  "runtime": "python3.11",
                   "s3_bucket": null,
                   "s3_key": null,
                   "s3_object_version": null,
@@ -6057,7 +6057,7 @@
               "constant_value": "./src/auth/function.zip"
             },
             "runtime": {
-              "constant_value": "python3.9"
+              "constant_value": "python3.11"
             },
             "timeout": {
               "constant_value": 300
@@ -8729,7 +8729,7 @@
               "constant_value": "./src/responder/function.zip"
             },
             "runtime": {
-              "constant_value": "python3.9"
+              "constant_value": "python3.11"
             },
             "timeout": {
               "constant_value": 300
