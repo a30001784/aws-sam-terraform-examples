@@ -28,7 +28,7 @@ module "publish_book_review" {
   source_path   = local.lambda_src_path
   function_name = "publish-book-review"
   handler       = "index.lambda_handler"
-  runtime       = "python3.8"
+  runtime       = "python3.11"
   lambda_role   = aws_iam_role.iam_for_lambda.arn
   environment_variables = {
     DYNAMODB_TABLE_NAME = "${aws_dynamodb_table.book-reviews-ddb-table.id}"
